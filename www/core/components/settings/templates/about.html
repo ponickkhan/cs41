@@ -2,51 +2,25 @@
     <ion-content mm-state-class>
         <ul class="list">
             <li class="item">
-                <h2>{{appname}} {{versionname}}</h2>
+                <h2>CSE41</h2>
             </li>
-            <li class="item item-divider">
-                <p>{{ 'mm.settings.license' | translate }}</p>
-            </li>
-            <li class="item item-text-wrap">
-                <h2>Apache 2.0</h2>
-                <p><a href="http://www.apache.org/licenses/LICENSE-2.0" mm-link auto-login="no">http://www.apache.org/licenses/LICENSE-2.0</a></p>
-            </li>
+           
             <li class="item item-divider">
                 <p>{{ 'mm.settings.deviceinfo' | translate }}</p>
             </li>
             <li class="item item-text-wrap" ng-if="versionname">
                 <p class="item-heading">{{ 'mm.settings.versionname' | translate}}</p>
-                <p>{{ versionname }}</p>
+                <p>1.0.0</p>
             </li>
             <li class="item item-text-wrap" ng-if="versioncode">
                 <p class="item-heading">{{ 'mm.settings.versioncode' | translate}}</p>
-                <p>{{ versioncode }}</p>
+                <p>2017</p>
             </li>
-            <li class="item item-text-wrap" ng-if="filesystemroot">
-                <p class="item-heading">{{ 'mm.settings.filesystemroot' | translate}}</p>
-                <a ng-if="fsclickable" ng-href="{{filesystemroot}}" mm-link auto-login="no">{{ filesystemroot }}</a>
-                <p ng-if="!fsclickable">{{ filesystemroot }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="navigator && navigator.userAgent">
-                <p class="item-heading">{{ 'mm.settings.navigatoruseragent' | translate}}</p>
-                <p>{{ navigator.userAgent }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="navigator && navigator.language">
-                <p class="item-heading">{{ 'mm.settings.navigatorlanguage' | translate}}</p>
-                <p>{{ navigator.language }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="locationhref">
-                <p class="item-heading">{{ 'mm.settings.locationhref' | translate}}</p>
-                <p>{{ locationhref }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="appready">
-                <p class="item-heading">{{ 'mm.settings.appready' | translate}}</p>
-                <p>{{ appready | translate }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="devicetype">
-                <p class="item-heading">{{ 'mm.settings.displayformat' | translate}}</p>
-                <p>{{ devicetype | translate }}</p>
-            </li>
+          
+           
+           
+            
+           
             <li class="item item-text-wrap" ng-if="deviceos">
                 <p class="item-heading">{{ 'mm.settings.deviceos' | translate}}</p>
                 <p>{{ deviceos | translate }}</p>
@@ -63,14 +37,8 @@
                 <p class="item-heading">{{ 'mm.settings.wificonnection' | translate}}</p>
                 <p>{{ wificonnection | translate }}</p>
             </li>
-            <li class="item item-text-wrap" ng-if="devicewebworkers">
-                <p class="item-heading">{{ 'mm.settings.devicewebworkers' | translate}}</p>
-                <p>{{ devicewebworkers | translate }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="device && device.cordova">
-                <p class="item-heading">{{ 'mm.settings.cordovaversion' | translate}}</p>
-                <p>{{ device.cordova }}</p>
-            </li>
+            
+           
             <li class="item item-text-wrap" ng-if="device && device.platform">
                 <p class="item-heading">{{ 'mm.settings.cordovadeviceplatform' | translate}}</p>
                 <p>{{ device.platform }}</p>
@@ -87,14 +55,7 @@
                 <p class="item-heading">{{ 'mm.settings.cordovadeviceuuid' | translate}}</p>
                 <p>{{ device.uuid }}</p>
             </li>
-            <li class="item item-text-wrap" ng-if="storagetype">
-                <p class="item-heading">{{ 'mm.settings.storagetype' | translate}}</p>
-                <p>{{ storagetype }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="localnotifavailable">
-                <p class="item-heading">{{ 'mm.settings.localnotifavailable' | translate}}</p>
-                <p>{{ localnotifavailable | translate }}</p>
-            </li>
+         
         </ul>
     </ion-content>
 </ion-view>

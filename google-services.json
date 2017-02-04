@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "802408779813",
+    "firebase_url": "https://cse41.firebaseio.com",
+    "project_id": "firebase-cse41",
+    "storage_bucket": "firebase-cse41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802408779813:android:326d88497bd23795",
+        "android_client_info": {
+          "package_name": "com.cse.uoda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802408779813-o6as6vs4gtgkjq5h53or4cadqd54c49q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV5lMnb8jbO0Z-E5iQGCCYDuqlCt-Ch0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
